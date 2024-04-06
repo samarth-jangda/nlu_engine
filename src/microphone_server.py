@@ -9,7 +9,7 @@ import asyncio
 import websockets
 import logging
 import json
-from vox import ModelRecognizer
+import ModelRecognizer
 import concurrent.futures
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
 
